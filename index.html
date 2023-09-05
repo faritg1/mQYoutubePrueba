@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/main.js" type="module" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="containerNav d-flex">
+        <div class="nav-left d-flex" >
+            <img id="menu" class="menu-icon" src="./img/menu.png" alt="1">
+            <a href="index.html">
+                <img class="logo-icon" src="./img/YouTube_Logo_2017.svg" alt="2">
+            </a>
+        </div>
+        <div class="nav-middle d-flex">
+            <div class="search-box d-flex">
+                <input id="chartSearch" type="text" placeholder="Search">
+                <img src="./img/search.png" alt="">
+                <img class="mic-icon" src="./img/voice-search.png" alt="">
+            </div>
+            <div class="containerSearch">
+                <div id="active" class="subSearch">
+                    <ul id="searchAll">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- SEARCHALL PRUEBA -->
+        <div class="nav-right d-flex">
+            <img src="./img/upload.png" alt="3">
+            <img src="./img/more.png" alt="4">
+            <img src="./img/notification.png" alt="5">
+            <img class="user-icon" src="./img/foto.jpeg" alt="6">
+        </div>
+    </nav>
+    <!-- Sidebar "Barra Lateral" -->
+    <div id="sidebar" class="sidebar">
+        <div class="shortcut-links">
+            <a href="#"><img src="./img/home.png" alt=""><p>Home</p></a>
+            <a href="#"><img src="./img/explore.png" alt=""><p>Explore</p></a>
+            <a href="#"><img src="./img/subscriprion.png" alt=""><p>Subscriprion</p></a>
+            <a href="#"><img src="./img/library.png" alt=""><p>Library</p></a>
+            <a href="#"><img src="./img/history.png" alt=""><p>History</p></a>
+            <a href="#"><img src="./img/playlist.png" alt=""><p>Playlist</p></a>
+            <a href="#"><img src="./img/messages.png" alt=""><p>Messages</p></a>
+            <a href="#"><img src="./img/show-more.png" alt=""><p>Show More</p></a>
+            <hr>
+        </div>
+        <div class="subscribed-list">
+            <h3>Subscribed</h3>
+            <a href="#"><img src="./img/Jack.png" alt=""><p>Jack</p></a>
+            <a href="#"><img src="./img/simon.png" alt=""><p>Simon</p></a>
+            <a href="#"><img src="./img/tom.png" alt=""><p>Tom</p></a>
+            <a href="#"><img src="./img/megan.png" alt=""><p>Megan</p></a>
+            <a href="#"><img src="./img/cameron.png" alt=""><p>Cameron</p></a>
+        </div>
+    </div>
+    <!-- Main -->
+    <div id="container" class="container">
+        <div id="banner" class="banner">
+            <button type="button">Todos</button>
+            <button type="button">Mixes</button>
+            <button type="button">Música</button>
+            <button type="button">VideoJuegos</button>
+            <button type="button">En tiempo real</button>
+            <button type="button">Banda sonora</button>
+            <button type="button">HTML CSS && JS</button>
+            <button type="button">Pop latino</button>
+            <button type="button">Animación</button>
+            <button type="button">Mixes</button>
+        </div>
+        <div id="list-container" class="list-container">
+            
+        </div>
+    </div>
+
+</body>
+</html>
